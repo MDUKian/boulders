@@ -9,8 +9,9 @@ html {
     box-sizing: border-box;
     font-weight: normal;
 }
-h2 {
+h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
+    font-weight: normal; 
 }
 
 video#bgvid { 
@@ -38,20 +39,22 @@ nav {
     font-family: Oswald, sans-serif;
 
 }
-nav ul {
+/* nav ul {
     display: -moz-box;
     display: -webkit-box;
     display: inline-box;
-}
+} */
 
 nav ul li {
    display: inline-block; 
     height: 100%;
+    max-width: 14.27%;
+
    /* width: auto;
         margin: 0 auto; */
-            -moz-box-flex: 1;
+           /* -moz-box-flex: 1;
     -webkit-box-flex: 1;
-    box-flex: 1;
+    box-flex: 1; */
 
 }
 nav ul li a {
@@ -61,8 +64,12 @@ nav ul li a {
   width: 100%;
   text-align: center;
   height: 100%;
+}
 nav a:hover {
-color: #31444C;
+/* color: #31444C; */
+}
+.active {
+text-decoration: underline;
 }
 /* _________________________________________________ MAIN _________________________________________________ */
 /* ________________________________________________ FOOTER ________________________________________________ */
@@ -70,7 +77,7 @@ color: #31444C;
 .footer-container {
     background-color: #11743C;
         color: #ffffff;
-    text-align: center;
+    text-align: center; 
 }
 footer section {
         display: inline-block;
