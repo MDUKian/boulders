@@ -10,6 +10,9 @@ include "includes/head.php";
 
         <div class="main-container">
             <div class="main wrapper clearfix">
+                <section>
+                    <img src="./media/img/banner.png"
+                </section>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
