@@ -1,3 +1,11 @@
+<?php
+$url = $_SERVER[ 'PHP_SELF' ];
+$url_array = explode( "/", $url );
+$count_array = count( $url_array );
+$this_page = $url_array[ $count_array - 1 ];
+$city = "Aarhus";
+//Tak Jan!
+?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
