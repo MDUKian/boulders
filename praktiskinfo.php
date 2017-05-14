@@ -1,5 +1,5 @@
 <?php
-$title = "Kon godt i gang - echo $location Boulders";
+$title = "Kom godt i gang - echo $location Boulders";
 include "includes/head.php";
 include "includes/nav.php";
 ?>

@@ -1,6 +1,12 @@
       <div class="footer-container">
             <footer class="wrapper">
-                <h3>footer</h3>
+                <section id="footaar">
+                    <h2>aarhus boulders</h2>
+                </section>
+                <section id="footcph">
+                    <h2>copenhagen boulders</h2>
+                    
+                </section>
             </footer>
         </div>
 
