@@ -34,21 +34,27 @@ video#bgvid {
 
 
 /* ________________________________________________ HEADER ________________________________________________ */
+
+.header-container {
+    background-color: #ffffff;
+}
 nav {
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
 
 }
-/* nav ul {
-    display: -moz-box;
-    display: -webkit-box;
-    display: inline-box;
-} */
+ nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+} 
 
 nav ul li {
-   display: inline-block; 
+  /* display: inline-block; */
     height: 100%;
-    max-width: 14.27%;
+      flex: 1 1 100%;
+       margin: 0 auto;
 
    /* width: auto;
         margin: 0 auto; */

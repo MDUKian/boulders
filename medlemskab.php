@@ -1,5 +1,5 @@
 <?php
-$title = "Medlemskab - echo $location Boulders";
+
 include "includes/head.php";
 include "includes/nav.php";
 ?>
