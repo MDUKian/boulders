@@ -13,9 +13,10 @@ include "includes/head.php";
                 <section id="hub">
                     <img src="./media/img/banner2x.png">
 <h2>åbent alle dage kl. 10-22</h2>
+<div class="btncontainer">
                     <a class="hubbtn" href="om.php">AARHUS</a>
                     <a class="hubbtn" href="om.php">COPENHAGEN</a>
-
+</div>
 
                 </section>
 
