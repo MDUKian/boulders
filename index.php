@@ -1,5 +1,5 @@
 <?php
-$title = "Boulders - København, Aarhus";
+
 include "includes/head.php";
 ?>
 
@@ -10,8 +10,13 @@ include "includes/head.php";
 
         <div class="main-container">
             <div class="main wrapper clearfix">
-                <section>
-                    <img src="./media/img/banner.png"
+                <section id="hub">
+                    <img src="./media/img/banner2x.png">
+<h2>åbent alle dage kl. 10-22</h2>
+                    <a class="hubbtn" href="om.php">AARHUS</a>
+                    <a class="hubbtn" href="om.php">COPENHAGEN</a>
+
+
                 </section>
 
             </div> <!-- #main -->

@@ -12,7 +12,9 @@ html {
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: normal; 
+    font-family: oswald, sans-serif;
 }
+
 
 video#bgvid { 
     position: fixed;
@@ -78,12 +80,71 @@ nav a:hover {
 text-decoration: underline;
 }
 /* _________________________________________________ MAIN _________________________________________________ */
+
+.hubbtn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 30px;
+  background: #901D1E;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  margin: 10%;
+}
+.ctabtn {
+  -webkit-border-radius: 4; 
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 20px;
+  background: #901D1E;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 2%;
+}
+
+.ctabtn:hover, .hubbtn:hover {
+  background: #bc2325;
+  text-decoration: none;
+}
+
+#hub {
+    margin-top: 25%;
+}
+#hub h2 {
+    color: #ffffff;
+    margin: 3% 0 10% 0;
+
+}
+.main-container {
+    text-align: center;
+}
+article header {
+
+    min-width: 100%;
+    min-height: 300px;
+ background-image(media/img/banner.png);
+
+}
+
+article header h1 {
+    color: #ffffff;
+
+}
+
+
 /* ________________________________________________ FOOTER ________________________________________________ */
 
 .footer-container {
     background-color: #11743C;
         color: #ffffff;
     text-align: center; 
+    position: absolute;
+    bottom: -293px;
+    width: 100%;
 }
 footer section {
         display: inline-block;
