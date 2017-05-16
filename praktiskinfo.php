@@ -6,7 +6,7 @@ include "includes/nav.php";
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <article>
+                <article id="praktiskinfo">
                     <header>
                         <h1>praktisk info</h1>
                       <a class="ctabtn" href="om.php">AARHUS</a>
