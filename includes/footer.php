@@ -1,4 +1,4 @@
-      <div class="footer-container">
+      <div <?php if($this_page == "index.php"):?>id="hardfooter"<?php endif;?> class="footer-container">
             <footer class="wrapper">
                 <section id="footaar">
                     <h2>aarhus boulders</h2>
@@ -7,8 +7,10 @@
                     <p>Email@aarhusboulders.dk <br>
                     +45 40 955 254 <br>
                     CVR-nr.: 32777651</p>
-                                        <div>
-                        SoMe
+                    <div class="SoMecontainer">
+                        <a href="#"><img class="SoMe" src="./media/img/facebook_ikon.png" alt=""></a>
+                        <a href="#"><img class="SoMe" src="./media/img/instagram_ikon.png" alt=""></a>
+                        <a href="#"><img class="SoMe" src="./media/img/tripadvisor_ikon.png" alt=""></a>
                     </div>
                 </section>
                 <section id="footcph">
@@ -18,8 +20,10 @@
                     <p>Email@copenhagenboulders.dk <br>
                     +45 70 255 254 <br>
                     CVR-nr.: 32777651</p>
-                    <div>
-                        SoMe
+                    <div class="SoMecontainer">
+                        <a href="#"><img class="SoMe" src="./media/img/facebook_ikon.png" alt=""></a>
+                        <a href="#"><img class="SoMe" src="./media/img/instagram_ikon.png" alt=""></a>
+                        <a href="#"><img class="SoMe" src="./media/img/tripadvisor_ikon.png" alt=""></a>
                     </div>
                 </section>
             </footer>

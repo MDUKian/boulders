@@ -6,11 +6,13 @@ include "includes/nav.php";
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <article>
+                <article id="kalender">
                     <header>
                         <h1>kalender</h1>
+                        <div class="btncontainer">
                       <a class="ctabtn" href="om.php">AARHUS</a>
-                      <a class="ctabtn" href="om.php">AARHUS</a>
+                      <a class="ctabtn" href="om.php">AARHUS</a>          
+                      </div>  
                     </header>
                     <section>
                         <h2>article section h2</h2>

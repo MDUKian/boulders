@@ -7,12 +7,16 @@ Grøn: #11743C
 <!-- Inspiration til baggrundsvideo fra http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video */
 html {
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
     font-weight: normal;
+}
+body {
+    box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
-    font-weight: normal; 
-    font-family: oswald, sans-serif;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -45,6 +49,10 @@ nav {
     font-family: Oswald, sans-serif;
 
 }
+
+#toplogo {
+    padding: 4% 0;
+}
  nav ul {
     display: flex;
     width: 100%;
@@ -73,9 +81,7 @@ nav ul li a {
   text-align: center;
   height: 100%;
 }
-nav a:hover {
-/* color: #31444C; */
-}
+
 .active {
 text-decoration: underline;
 }
@@ -128,25 +134,51 @@ padding: 15px 30px 15px 30px;
          display: flex;
      justify-content:space-between;
 }
+.SoMecontainer {
+    display: flex;
+    justify-content: center;
+}
 .main-container {
     text-align: center;
+}
+
+
+#kalender header {
+background-image: url("../media/img/kalender.jpg");
+}
+#kontakt header {
+    background-image: url("../media/img/kontakt.jpg");
+}
+#medlemskab header {
+    background-image: url("../media/img/prismedlemskab.jpg");
+}
+#okobar header {
+    background-image: url("../media/img/okobar.jpg");
+}
+#om header {
+    background-image: url("../media/img/om.jpg");
+}
+#praktiskinfo header {
+    background-image: url("../media/img/praktiskinfo.jpg");
 }
 article header {
 
     width: 100%;
     min-height: 300px;
-        background-image: url("../media/img/articlebg.jpg");
+        padding-top: 5%;
     background-repeat: no-repeat;
      background-position: center center;
     background-size: cover;
 
-
 }
+
 
 article header h1 {
     color: #ffffff;
+    font-size: 3.5em;
     margin: 0;
     padding: 2%;
+    letter-spacing: 1.5px;
 
 }
 
@@ -157,15 +189,27 @@ article header h1 {
 }*/
 /* ________________________________________________ FOOTER ________________________________________________ */
 
+footer.wrapper {
+    margin-top: 0;
+}
 .footer-container {
     background-color: #11743C;
         color: #ffffff;
     text-align: center; 
-    position: absolute;
-    bottom: -293px;
+ /*   bottom: -293px; */
     width: 100%;
+    font-size: 0.8em;
 }
-footer section {
+.footer-container section {
         display: inline-block;
         width: 49%;
+}
+#hardfooter {
+    position: absolute; 
+    top: 100%;
+}
+
+.SoMe {
+height: 32px;
+width: 32px;
 }

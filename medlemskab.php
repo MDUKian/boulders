@@ -6,7 +6,7 @@ include "includes/nav.php";
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <article>
+                <article  id="medlemskab">
                     <header>
                         <h1>pris &amp; medlemskab</h1>
                         <div class="btncontainer">
