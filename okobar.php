@@ -6,7 +6,7 @@ include "includes/nav.php";
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <article>
+                <article  id="okobar">
                     <header>
                         <h1>øko bar</h1>
                         <div class="btncontainer">
