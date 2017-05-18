@@ -19,12 +19,14 @@ if($url === $this_page){
 }
         
 }
-/*
-$aarfb = 
-$aarinsta = 
-$cphfb = 
-$cphinsta = 
-*/
+
+$aarfb = "https://www.facebook.com/aarhusboulders/";
+$aarinsta = "https://www.instagram.com/aarhusboulders/";
+$aarta = "https://www.tripadvisor.dk/Attraction_Review-g189530-d10387979-Reviews-Aarhus_Boulders-Aarhus_East_Jutland_Jutland.html";
+$cphfb = "https://www.facebook.com/copenhagenboulders/";
+$cphinsta = "https://www.instagram.com/cphboulders/";
+$cphta = "https://www.tripadvisor.dk/Attraction_Review-g189541-d10454283-Reviews-Copenhagen_Boulders-Copenhagen_Zealand.html";
+
 ?>
 <!doctype html>
 <html class="no-js" lang="en">

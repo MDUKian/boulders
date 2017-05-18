@@ -8,9 +8,9 @@
                     +45 40 955 254 <br>
                     CVR-nr.: 32777651</p>
                     <div class="SoMecontainer">
-                        <a href="#"><img class="SoMe" src="./media/img/facebook_ikon.png" alt=""></a>
-                        <a href="#"><img class="SoMe" src="./media/img/instagram_ikon.png" alt=""></a>
-                        <a href="#"><img class="SoMe" src="./media/img/tripadvisor_ikon.png" alt=""></a>
+                        <a href="<?php echo $aarfb ?>" target="_blank"><img class="SoMe" src="./media/img/facebook_ikon.png" alt=""></a>
+                        <a href="<?php echo $aarinsta ?>" target="_blank"><img class="SoMe" src="./media/img/instagram_ikon.png" alt=""></a>
+                        <a href="<?php echo $aarta ?>" target="_blank"><img class="SoMe" src="./media/img/tripadvisor_ikon.png" alt=""></a>
                     </div>
                 </section>
                 <section id="footcph">
@@ -21,9 +21,9 @@
                     +45 70 255 254 <br>
                     CVR-nr.: 32777651</p>
                     <div class="SoMecontainer">
-                        <a href="#"><img class="SoMe" src="./media/img/facebook_ikon.png" alt=""></a>
-                        <a href="#"><img class="SoMe" src="./media/img/instagram_ikon.png" alt=""></a>
-                        <a href="#"><img class="SoMe" src="./media/img/tripadvisor_ikon.png" alt=""></a>
+                        <a href="<?php echo $cphfb ?>" target="_blank"><img class="SoMe" src="./media/img/facebook_ikon.png" alt=""></a>
+                        <a href="<?php echo $cphinsta ?>" target="_blank"><img class="SoMe" src="./media/img/instagram_ikon.png" alt=""></a>
+                        <a href="<?php echo $cphta ?>" target="_blank"><img class="SoMe" src="./media/img/tripadvisor_ikon.png" alt=""></a>
                     </div>
                 </section>
             </footer>
