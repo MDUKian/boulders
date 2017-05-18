@@ -3,7 +3,7 @@
                 <section id="footaar">
                     <h2>aarhus boulders</h2>
                     <p>Åbent alle dage kl. 10-22</p>
-                    <p>Graham Bells Vej 18a, 8200 Aarhus C</p>
+                    <p>Graham Bells Vej 18a, <br> 8200 Aarhus C</p>
                     <p>Email@aarhusboulders.dk <br>
                     +45 40 955 254 <br>
                     CVR-nr.: 32777651</p>
@@ -16,7 +16,7 @@
                 <section id="footcph">
                     <h2>copenhagen boulders</h2>
                      <p>Åbent alle dage kl. 10-22</p>
-                    <p>Bådehavnsgade 38, 2450 København Sydhavn</p>
+                    <p>Bådehavnsgade 38, <br> 2450 København Sydhavn</p>
                     <p>Email@copenhagenboulders.dk <br>
                     +45 70 255 254 <br>
                     CVR-nr.: 32777651</p>

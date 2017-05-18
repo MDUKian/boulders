@@ -19,6 +19,12 @@ if($url === $this_page){
 }
         
 }
+/*
+$aarfb = 
+$aarinsta = 
+$cphfb = 
+$cphinsta = 
+*/
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
