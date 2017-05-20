@@ -9,6 +9,7 @@ html {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
     font-weight: normal;
+    font-size: 0.9em;
 }
 body {
     box-sizing: border-box;
@@ -96,7 +97,7 @@ text-decoration: underline;
   font-size: 30px;
   background: #901D1E;
 padding: 15px 30px 15px 30px;
-       flex: 0 0 20%;
+       flex: 0 0 15%;
        margin: 0 auto;
 
   text-decoration: none;
@@ -113,7 +114,7 @@ padding: 15px 30px 15px 30px;
   padding: 10px 20px 10px 20px;
   text-transform: uppercase;
   text-decoration: none;
-         flex: 0 0 12%; 
+         flex: 0 0 10%; 
        margin: 10% 5%;
 }
 
@@ -221,3 +222,48 @@ footer.wrapper {
 height: 32px;
 width: 32px;
 }
+/* ______________________________________________ BREAKPOINTS ______________________________________________ */
+
+   /* Hard breakpoint */
+    @media only screen and (min-width : 768px) {
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+
+        .hubbtn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 30px;
+  background: #901D1E;
+padding: 15px 30px 15px 30px;
+       flex: 0 0 20%;
+       margin: 0 auto;
+
+  text-decoration: none;
+
+}
+.ctabtn {
+  -webkit-border-radius: 4; 
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 20px;
+  background: #901D1E;
+  padding: 10px 20px 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+         flex: 0 0 12%; 
+       margin: 10% 5%;
+}
+
+    }
