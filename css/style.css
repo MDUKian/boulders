@@ -9,6 +9,7 @@ html {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
     font-weight: normal;
+    font-size: 0.9em;
 }
 body {
     box-sizing: border-box;
@@ -96,7 +97,7 @@ text-decoration: underline;
   font-size: 30px;
   background: #901D1E;
 padding: 15px 30px 15px 30px;
-       flex: 0 0 20%;
+       flex: 0 0 15%;
        margin: 0 auto;
 
   text-decoration: none;
@@ -111,9 +112,10 @@ padding: 15px 30px 15px 30px;
   font-size: 20px;
   background: #901D1E;
   padding: 10px 20px 10px 20px;
+  text-transform: uppercase;
   text-decoration: none;
-         flex: 0 0 10%;
-       margin: 15% auto;
+         flex: 0 0 10%; 
+       margin: 10% 5%;
 }
 
 .ctabtn:hover, .hubbtn:hover {
@@ -132,11 +134,14 @@ padding: 15px 30px 15px 30px;
 }
 .btncontainer {
          display: flex;
-     justify-content:space-between;
+     justify-content:center;
 }
 .SoMecontainer {
     display: flex;
     justify-content: center;
+}
+.SoMecontainer a {
+    margin: 0.5%;
 }
 .main-container {
     text-align: center;
@@ -164,7 +169,8 @@ background-image: url("../media/img/kalender.jpg");
 article header {
 
     width: 100%;
-    min-height: 300px;
+    /* min-height: 300px; */
+    height: 450px;
         padding-top: 5%;
     background-repeat: no-repeat;
      background-position: center center;
@@ -174,7 +180,7 @@ article header {
 
 
 article header h1 {
-    color: #ffffff;
+    color: #11743C; 
     font-size: 3.5em;
     margin: 0;
     padding: 2%;
@@ -204,6 +210,9 @@ footer.wrapper {
         display: inline-block;
         width: 49%;
 }
+.footer-container p {
+    margin: 1%;
+}
 #hardfooter {
     position: absolute; 
     top: 100%;
@@ -213,3 +222,48 @@ footer.wrapper {
 height: 32px;
 width: 32px;
 }
+/* ______________________________________________ BREAKPOINTS ______________________________________________ */
+
+   /* Hard breakpoint */
+    @media only screen and (min-width : 768px) {
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+
+        .hubbtn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 30px;
+  background: #901D1E;
+padding: 15px 30px 15px 30px;
+       flex: 0 0 20%;
+       margin: 0 auto;
+
+  text-decoration: none;
+
+}
+.ctabtn {
+  -webkit-border-radius: 4; 
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 20px;
+  background: #901D1E;
+  padding: 10px 20px 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+         flex: 0 0 12%; 
+       margin: 10% 5%;
+}
+
+    }

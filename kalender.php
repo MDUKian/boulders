@@ -10,22 +10,17 @@ include "includes/nav.php";
                     <header>
                         <h1>kalender</h1>
                         <div class="btncontainer">
-                      <a class="ctabtn" href="om.php">AARHUS</a>
-                      <a class="ctabtn" href="om.php">AARHUS</a>          
+                      <a class="ctabtn" href="#">bliv medlem</a>
+                      <a class="ctabtn" href="kontakt.php">kontakt</a>          
                       </div>  
                     </header>
                     <section>
                         <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <footer>
-                        <h3>article footer h3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-                    </footer>
+<p>Vi afholder Late Night Bouldering den første fredag aften i hver måned.</p> 
+<p>Lækker musik, sjov klatring til alle niveauer, glade mennesker og billige økologiske øl.</p>
+<p>Klik på et event for at blive sendt direkte til vores facebookbegivenhed!</p>
+                   </section>
+
                 </article>
 
 
