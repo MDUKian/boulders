@@ -77,7 +77,7 @@ nav {
 }
 #navlarge ul li a {
   color: #000000;
-  text-decoration: none;
+  text-decoration: none; 
   display: block;
   width: 100%;
   text-align: center;
@@ -188,6 +188,25 @@ article header h1 {
     letter-spacing: 1.5px;
 
 }
+section p {
+    margin: 0.3em 0;
+}
+/* section h2, h3 {
+    margin: 0 0 0.5em 0;
+} */
+section ul {
+    margin: 0;
+}
+
+.onlydesktop {
+display:none;
+}
+.half div {
+    vertical-align:top;
+}
+.divider {
+    display:none;
+}
 
 /*#praktiskinfo header {
     background: url("media/img/articlebg.jpg");
@@ -224,7 +243,24 @@ height: 32px;
 width: 32px;
 }
 /* ______________________________________________ BREAKPOINTS ______________________________________________ */
+  
+  
+   /* Hard breakpoint Div sections */
+    @media only screen and (min-width : 440px) {
+ 
+ .half {
+overflow: hidden;
+ }
+.half div {
+display:inline-block;
+    width: 49%; 
 
+}
+.half ul {
+    text-align:left;
+}
+
+    }
    /* Hard breakpoint mobil&tablet */
     @media only screen and (min-width : 768px) {
 
@@ -286,7 +322,10 @@ padding: 15px 30px 15px 30px;
        margin: 10% 5%;
 }
 
-    }
+.onlydesktop {
+display:flex;
+}
+    } 
 
    /* Hard breakpoint større end tablet */
     @media only screen and (min-width : 801px) {
@@ -317,10 +356,12 @@ padding: 15px 30px 15px 30px;
 }
 #navlarge ul li a {
   color: #000000;
-  text-decoration: none;
   display: block;
   width: 100%;
   text-align: center;
   height: 100%;
 }
-    }
+.active {
+text-decoration: underline;
+}
+    } 
