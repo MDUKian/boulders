@@ -37,6 +37,10 @@ video#bgvid {
    
     background-size: cover; 
 }
+.wrapper {
+    width: 100%;
+    margin: 0%;
+}
 
 
 
@@ -51,17 +55,17 @@ nav {
 
 }
 
-#toplogo {
+
+
+/* ________________________________________________ NAVLARGE ________________________________________________ */
+#logolarge {
     padding: 4% 0;
 }
- nav ul {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+ #navlarge ul {
+    display: none;
 } 
 
-nav ul li {
+#navlarge ul li {
   /* display: inline-block; */
     height: 100%;
       flex: 1 1 100%;
@@ -74,7 +78,7 @@ nav ul li {
     box-flex: 1; */
 
 }
-nav ul li a {
+#navlarge ul li a {
   color: #000000;
   text-decoration: none;
   display: block;
@@ -224,7 +228,7 @@ width: 32px;
 }
 /* ______________________________________________ BREAKPOINTS ______________________________________________ */
 
-   /* Hard breakpoint */
+   /* Hard breakpoint mobil&tablet */
     @media only screen and (min-width : 768px) {
 
 
@@ -285,4 +289,45 @@ padding: 15px 30px 15px 30px;
        margin: 10% 5%;
 }
 
+    }
+
+   /* Hard breakpoint større end tablet */
+    @media only screen and (min-width : 801px) {
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+#logolarge {
+    padding: 4% 0;
+}
+ #navlarge ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+} 
+
+#navlarge ul li {
+  /* display: inline-block; */
+    height: 100%;
+      flex: 1 1 100%;
+       margin: 0 auto;
+
+   /* width: auto;
+        margin: 0 auto; */
+           /* -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1; */
+
+}
+#navlarge ul li a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
     }
