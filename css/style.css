@@ -37,10 +37,7 @@ video#bgvid {
    
     background-size: cover; 
 }
-.wrapper {
-    width: 100%;
-    margin: 0%;
-}
+
 
 
 
@@ -294,10 +291,6 @@ padding: 15px 30px 15px 30px;
    /* Hard breakpoint større end tablet */
     @media only screen and (min-width : 801px) {
 
-.wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
 
 #logolarge {
     padding: 4% 0;
