@@ -5,6 +5,28 @@ Grøn: #11743C
 */
 /* ________________________________________________ VIDEO ________________________________________________
 <!-- Inspiration til baggrundsvideo fra http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video */
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+   background:url(../media/img/bgfallback.jpg) no-repeat;
+    background-size: cover; 
+}
+video {
+    display:none;
+}
+
+
+
 html {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
@@ -22,20 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-   
-    background-size: cover; 
+background:url(../media/img/bgfallback.jpg) no-repeat;
 }
 
 
@@ -45,6 +54,7 @@ video#bgvid {
 
 .header-container {
     background-color: #ffffff;
+    min-height:40px;
 }
 nav {
     text-transform: uppercase;
@@ -118,20 +128,25 @@ padding: 15px 30px 15px 30px;
          flex: 0 0 30%; 
        margin: 20% 5% 10% 5%;
 }
+.landercontent {
+    margin: 4% 0;
+}
 
 .ctabtn:hover, .hubbtn:hover {
-  background: #bc2325;
+  background: #bc2325; 
   text-decoration: none;
 }
-
 #hub {
-    margin-top: 15%;
 
 }
+
 #hub h2 {
     color: #ffffff;
     margin: 3% 0 10% 0;
 
+}
+#hub img {
+    width:90%;
 }
 .btncontainer {
          display: flex;
@@ -204,8 +219,14 @@ display:none;
 .half div {
     vertical-align:top;
 }
-.divider {
-    display:none;
+.third div {
+    vertical-align: top;
+}
+.third ul {
+    text-align:left;
+}
+.bold {
+    font-weight: 700;
 }
 
 /*#praktiskinfo header {
@@ -259,6 +280,34 @@ display:inline-block;
 .half ul {
     text-align:left;
 }
+.third div {
+    display: inline-block;
+    width: 32%;
+}
+.landercontent {
+    margin: 4% 0;
+}
+.landercontent.third p {
+    margin-bottom: 4%;
+}
+.landercontent.third img {
+    width: 80%;
+    height: auto;
+
+}
+.btncontainer.third {
+    display:flex;
+    position:relative;
+    left:33%;   
+    
+}
+.btncontainer.third a {
+    flex: 0 0 auto;
+    justify-content:space-between;
+    margin: 2% auto;
+
+}
+
 
     }
    /* Hard breakpoint mobil&tablet */
@@ -321,10 +370,22 @@ padding: 15px 30px 15px 30px;
          flex: 0 0 12%; 
        margin: 10% 5%;
 }
+#hub {
+margin:33% auto;
+display:block;
+}
 
 .onlydesktop {
 display:flex;
 }
+
+/* ________________________________________________ VIDEO ________________________________________________
+<!-- Inspiration til baggrundsvideo fra http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video */
+video#bgvid { 
+    display:block;
+
+}
+
     } 
 
    /* Hard breakpoint større end tablet */
