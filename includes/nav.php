@@ -15,6 +15,7 @@
     <nav id="navlarge" class="nav">
         <!--Alternativ PHP syntax til active class fra http://php.net/manual/en/control-structures.alternative-syntax.php -->
         <ul class="menu">
+            <li class="menu-item"><a  href="http://www.kianbay.dk/boulders/om.php">Aarhus Boulders</a>
             </li>
             <li class="menu-item"><a href="http://www.kianbay.dk/boulders/praktiskinfo.php">praktisk info</a>
             </li>
