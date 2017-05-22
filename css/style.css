@@ -369,7 +369,7 @@ nav {
     padding: 5px 10px;
     flex: 0 0 30%;
   /*  margin: 0 auto; */
-  margin: 0;
+  margin: 10%;
     text-decoration: none;
 }
 .ctabtn {
@@ -549,7 +549,7 @@ footer.wrapper {
     width: 32px;
 }
     #hub {
-        margin: 33% auto;
+        margin: 40% auto auto auto;
         display: block;
     } 
 
@@ -559,6 +559,10 @@ footer.wrapper {
 }
 .pthirdcontainer {
     height: 50%;
+}
+#hubbtncontainer {
+    flex-direction: column;
+    justify-content:space-between;
 }
 /* ______________________________________________ BREAKPOINTS ______________________________________________ */
 /* Hard breakpoint Div sections */
@@ -605,6 +609,10 @@ margin: 2% auto;
         justify-content: space-between;
         margin: 2% auto;
     }
+    #hubbtncontainer {
+    flex-direction: row;
+    justify-content:space-around;
+}
     
 }
 /* Hard breakpoint mobil&tablet */
