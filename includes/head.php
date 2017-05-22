@@ -29,7 +29,7 @@ $cphta = "https://www.tripadvisor.dk/Attraction_Review-g189541-d10454283-Reviews
 
 ?>
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" <?php if($this_page == "index.php"):?>id="bgfallback"<?php endif;?>>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

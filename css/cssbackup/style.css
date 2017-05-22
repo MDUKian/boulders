@@ -1,0 +1,428 @@
+/* 
+Rød: #901D1E
+Gul: #F1D013
+Grøn: #11743C
+*/
+/* ________________________________________________ VIDEO ________________________________________________
+<!-- Inspiration til baggrundsvideo fra http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video */
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+   background:url(../media/img/bgfallback.jpg) no-repeat;
+    background-size: cover; 
+}
+video {
+    display:none;
+}
+
+
+
+html {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+body {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+video#bgvid { 
+background:url(../media/img/bgfallback.jpg) no-repeat;
+}
+
+
+
+
+/* ________________________________________________ HEADER ________________________________________________ */
+
+.header-container {
+    background-color: #ffffff;
+    min-height:40px;
+}
+nav {
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+
+}
+
+
+
+/* ________________________________________________ NAVLARGE ________________________________________________ */
+#logolarge {
+    padding: 4% 0;
+}
+ #navlarge ul {
+    display: none;
+} 
+
+#navlarge ul li {
+  /* display: inline-block; */
+    height: 100%;
+      flex: 1 1 100%;
+       margin: 0 auto;
+
+   /* width: auto;
+        margin: 0 auto; */
+           /* -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1; */
+
+}
+#navlarge ul li a {
+  color: #000000;
+  text-decoration: none; 
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.active {
+text-decoration: underline;
+}
+/* _________________________________________________ MAIN _________________________________________________ */
+
+.hubbtn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 30px;
+  background: #901D1E;
+padding: 15px 30px 15px 30px;
+       flex: 0 0 15%;
+       margin: 0 auto;
+
+  text-decoration: none;
+
+}
+.ctabtn {
+  -webkit-border-radius: 4; 
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 20px;
+  background: #901D1E;
+  padding: 5px 10px 5px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+         flex: 0 0 30%; 
+       margin: 20% 5% 10% 5%;
+}
+.landercontent {
+    margin: 4% 0;
+}
+
+.ctabtn:hover, .hubbtn:hover {
+  background: #bc2325; 
+  text-decoration: none;
+}
+#hub {
+
+}
+
+#hub h2 {
+    color: #ffffff;
+    margin: 3% 0 10% 0;
+
+}
+#hub img {
+    width:90%;
+}
+.btncontainer {
+         display: flex;
+     justify-content:center;
+}
+.SoMecontainer {
+    display: flex;
+    justify-content: center;
+}
+.SoMecontainer a {
+    margin: 0.5%;
+}
+.main-container {
+    text-align: center;
+}
+
+
+#kalender header {
+background-image: url("../media/img/kalender.jpg");
+}
+#kontakt header {
+    background-image: url("../media/img/kontakt.jpg");
+}
+#medlemskab header {
+    background-image: url("../media/img/prismedlemskab.jpg");
+}
+#okobar header {
+    background-image: url("../media/img/okobar.jpg");
+}
+#om header {
+    background-image: url("../media/img/om.jpg");
+}
+#praktiskinfo header {
+    background-image: url("../media/img/praktiskinfo.jpg");
+}
+article header {
+
+    width: 100%;
+    /* min-height: 300px; */
+    height: 250px;
+        padding-top: 5%;
+    background-repeat: no-repeat;
+     background-position: center center;
+    background-size: cover;
+
+}
+
+
+article header h1 {
+    color: #ffffff; 
+    font-size: 2em;
+    margin: 0;
+    padding: 2%;
+    letter-spacing: 1.5px;
+
+}
+section p {
+    margin: 0.3em 0;
+}
+/* section h2, h3 {
+    margin: 0 0 0.5em 0;
+} */
+section ul {
+    margin: 0;
+}
+
+.onlydesktop {
+display:none;
+}
+.half div {
+    vertical-align:top;
+}
+.third div {
+    vertical-align: top;
+}
+.third ul {
+    text-align:left;
+}
+.bold {
+    font-weight: 700;
+}
+
+/*#praktiskinfo header {
+    background: url("media/img/articlebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}*/
+/* ________________________________________________ FOOTER ________________________________________________ */
+
+footer.wrapper {
+    margin-top: 0;
+}
+.footer-container {
+    background-color: #11743C;
+        color: #ffffff;
+    text-align: center; 
+ /*   bottom: -293px; */
+    width: 100%;
+    font-size: 0.8em;
+}
+.footer-container section {
+        display: inline-block;
+        width: 49%;
+}
+.footer-container p {
+    margin: 1%;
+}
+#hardfooter {
+    position: absolute; 
+    top: 100%;
+}
+
+.SoMe {
+height: 32px;
+width: 32px;
+}
+/* ______________________________________________ BREAKPOINTS ______________________________________________ */
+  
+  
+   /* Hard breakpoint Div sections */
+    @media only screen and (min-width : 440px) {
+ 
+ .half {
+overflow: hidden;
+ }
+.half div {
+display:inline-block;
+    width: 49%; 
+
+}
+.half ul {
+    text-align:left;
+}
+.third div {
+    display: inline-block;
+    width: 32%;
+}
+.landercontent {
+    margin: 4% 0;
+}
+.landercontent.third p {
+    margin-bottom: 4%;
+}
+.landercontent.third img {
+    width: 80%;
+    height: auto;
+
+}
+.btncontainer.third {
+    display:flex;
+    position:relative;
+    left:33%;   
+    
+}
+.btncontainer.third a {
+    flex: 0 0 auto;
+    justify-content:space-between;
+    margin: 2% auto;
+
+}
+
+
+    }
+   /* Hard breakpoint mobil&tablet */
+    @media only screen and (min-width : 768px) {
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+article header {
+
+    width: 100%;
+    /* min-height: 300px; */
+    height: 450px;
+        padding-top: 5%;
+    background-repeat: no-repeat;
+     background-position: center center;
+    background-size: cover;
+
+}
+article header h1 {
+    color: #ffffff;  
+    font-size: 3.5em;
+    margin: 0;
+    padding: 2%;
+    letter-spacing: 1.5px;
+
+}
+
+
+
+        .hubbtn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 30px;
+  background: #901D1E;
+padding: 15px 30px 15px 30px;
+       flex: 0 0 20%;
+       margin: 0 auto;
+
+  text-decoration: none;
+
+}
+.ctabtn {
+  -webkit-border-radius: 4; 
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Oswald;
+  color: #ffffff;
+  font-size: 20px;
+  background: #901D1E;
+  padding: 10px 20px 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+         flex: 0 0 12%; 
+       margin: 10% 5%;
+}
+#hub {
+margin:33% auto;
+display:block;
+}
+
+.onlydesktop {
+display:flex;
+}
+
+/* ________________________________________________ VIDEO ________________________________________________
+<!-- Inspiration til baggrundsvideo fra http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video */
+video#bgvid { 
+    display:block;
+
+}
+
+    } 
+
+   /* Hard breakpoint større end tablet */
+    @media only screen and (min-width : 801px) {
+
+
+#logolarge {
+    padding: 4% 0;
+}
+ #navlarge ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+} 
+
+#navlarge ul li {
+  /* display: inline-block; */
+    height: 100%;
+      flex: 1 1 100%;
+       margin: 0 auto;
+
+   /* width: auto;
+        margin: 0 auto; */
+           /* -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1; */
+
+}
+#navlarge ul li a {
+  color: #000000;
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+.active {
+text-decoration: underline;
+}
+    } 

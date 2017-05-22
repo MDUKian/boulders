@@ -8,7 +8,7 @@ include "includes/head.php";
     <source src="./media/videos/introhigh.mp4" type="video/mp4">
 </video>
 
-        <div class="main-container">
+        <div class="main-container loader">
             <div class="main wrapper clearfix">
                 <section id="hub">
                  <!--   <img src="./media/img/banner2x.png"> -->
