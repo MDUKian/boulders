@@ -19,7 +19,9 @@ include "includes/nav.php";
 Bouldering er en ren form for klatring, der er meget dynamisk, hvilket kræver teknik og kreativitet. Her er du ikke forstyrret af reb og andet klatregrej. Når man boulder, klatrer man på mindre vægge, over madrasser. Madrasserne er den eneste sikkerhed man har, så det er vigtigt at følge vores sikkerhedstips.
 </p>
 <p>Bouldering handler om at løse avancerede problemstillinger alene eller sammen med venner. For at klatre et problem er man tvunget til at tænke ud af boksen og koordineere et kreativt bevægelsessæt. Bouldering er også en fantastisk måde at møde nye mennesker, arbejde sammen med dem om at løse en fælles problemstilling - og måske endda nyde en god kop kaffe i godt selskab.</p>
+<div class="btncontainer  onlydesktop">
 <a class="ctabtn" href="om.php">bliv medlem</a>
+</div>
 
                    </section>
                     <section>
