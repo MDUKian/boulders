@@ -42,33 +42,36 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
-/* .wrapper {
-    width: 90%;
-    margin: 0 5%;
-} */
+body {
+    box-sizing: border-box;
+}
+body a {
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+#om section a {
+    color:#000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+h2, h3, h4, h5, h6 {
+    font-size: 1.5em;
+}
 .wrapper {
     width: 100%;
     margin: 0;
 }
-/* ===================
-    ALL: Orange Theme
-   =================== */
 
-.header-container,
-.footer-container,
-.main aside {
-    background: #f16529;
-}
-.title {
-    color: white;
-}
-/* ==============
-    MOBILE: Menu
-   ============== */
 
 nav ul {
     margin: 0;
@@ -290,26 +293,7 @@ html {
     font-weight: normal;
     font-size: 0.9em;
 }
-body {
-    box-sizing: border-box;
-}
-body a {
-    font-family: 'Oswald', sans-serif;
-    font-weight:300;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-transform: uppercase;
-    font-weight: 300;
-    font-family: 'Oswald', sans-serif;
-}
-h2, h3, h4, h5, h6 {
-    font-size: 1.5em;
-}
+
 
 video#bgvid {
     background: url(../media/img/bgfallback.jpg) no-repeat center center fixed;
@@ -330,9 +314,7 @@ nav {
 #logolarge {
     padding: 4% 0;
 }
-#navlarge ul {
-    display: none;
-}
+
 #navlarge ul li {
     /* display: inline-block; */
     
@@ -373,6 +355,8 @@ nav {
     text-decoration: none;
 }
 .ctabtn {
+    color:#ffffff !important;
+
     -webkit-border-radius: 4;
     -moz-border-radius: 4;
     border-radius: 4px;
@@ -401,6 +385,7 @@ nav {
 }
 #hub img {
     width: 90%;
+    margin: 15% auto 0%;
 }
 .btncontainer {
     display: flex;
@@ -447,11 +432,14 @@ article header {
 }
 article header h1 {
     color: #ffffff;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0;
     padding: 2%;
     letter-spacing: 1.5px;
 }
+article section {
+    width: 100%;
+} 
 section p {
     margin: 0.3em 0;
 }
@@ -469,8 +457,10 @@ section ul {
     margin: 0;
 }
 section {
-    padding: 3%;
+    padding:0;
+    margin:0 auto;
 }
+
 .half {
 padding: 3%;
 }
@@ -481,6 +471,13 @@ padding: 3%;
     vertical-align: top;
     margin: 4% 3%
 }
+
+#medlemskab article section h2 {
+   font-size: 3em;
+   margin: 5% auto 0;
+} 
+
+
 .third ul {
     text-align: left;
 }
@@ -526,10 +523,18 @@ footer.wrapper {
 .footer-container p {
     margin: 1%;
 }
+.footer-container h2 {
+        font-size: 2.5em;
+}
 #hardfooter {
     display:block;
-    position: absolute;
-   top: 100%; 
+    position: relative;
+   bottom:-25vh; 
+  /* padding:2% auto 5% auto; */
+   padding-top:2%;
+   padding-bottom:5%;
+
+   min-height:25vh;
 
 
 }
@@ -537,19 +542,23 @@ footer.wrapper {
     margin:0;
     width:100%;
     height:100%;
+    padding:0;
 }
 .loader {
-
- height:100%;
- width:100%;
+max-height:100vh;
+/* min-height:100vh;
+max-height:100vh; */
 
 }
+.loader h2 { 
+        font-size: 2.5em;
+} 
 .SoMe {
     height: 32px;
     width: 32px;
 }
     #hub {
-        margin: 40% auto auto auto;
+margin:auto auto;
         display: block;
     } 
 
@@ -564,6 +573,22 @@ footer.wrapper {
     flex-direction: column;
     justify-content:space-between;
 }
+#kontakt section {
+    width: 100%;
+}
+.instawidget {
+    width:100%;
+    height:auto;
+}
+#kalender img {
+    width:100%;
+    height:auto;
+    margin:-7% auto -9.7%;
+}
+#kalender p {
+    width: 90%; 
+}
+
 /* ______________________________________________ BREAKPOINTS ______________________________________________ */
 /* Hard breakpoint Div sections */
 
@@ -578,6 +603,7 @@ footer.wrapper {
     .half ul {
         text-align: left;
     }
+
     .third div {
         display: inline-block;
         width: 30%;
@@ -633,12 +659,9 @@ margin: 2% auto;
         background-position: center center;
         background-size: cover;
     }
-    article header h1 {
-        color: #ffffff;
-        font-size: 3.5em;
-        margin: 0;
-        padding: 2%;
-        letter-spacing: 1.5px;
+        article header h1 {
+    color: #ffffff;
+    font-size: 3.5em;
     }
     .hubbtn {
         -webkit-border-radius: 4;
@@ -670,7 +693,7 @@ margin: 2% auto;
        /* margin: 10% 5%; */
     }
     #hub {
-        margin: 25% auto;
+margin:auto auto;
         display: block;
     } 
     .onlydesktop {
@@ -727,7 +750,7 @@ margin: 2% auto;
         height: 100%;
     }
     #hub {
-        margin: 20% auto;
+        margin: auto auto;
         display: block;
     } 
         .landercontent.third p {
@@ -739,3 +762,81 @@ margin: 2% auto;
 
     }
 }
+
+
+/* ________________________________________________ BURGERMENU ________________________________________________*/
+
+.nav-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .nav{
+        display:none;
+    }
+
+    .nav-btn {
+        display: initial;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 5px;
+        background: none;
+        border: 0;
+        min-width: 75px;
+    }
+
+    .nav-open{
+        font-size: 18px;
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    .nav-opened .nav-open {
+        display:none;
+    }
+
+    .nav-close{
+        display: none;
+        color: white;
+        font-size: 50px;
+        line-height: 30px;
+    }
+
+    .nav-opened .nav-close {
+        display:initial;
+    }
+
+    .nav-opened .nav {
+        background-color: rgba(0,0,0,.95);
+        display: initial;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        z-index: 1;
+        -webkit-overflow-scrolling: touch;
+    
+    }
+
+    .nav-opened .menu{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    #navlarge .menu-item {
+        display: inline-block;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #navlarge .menu-item a{
+        font-size: 30px;
+        color: white;
+    }
+}
+

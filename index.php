@@ -11,8 +11,8 @@ include "includes/head.php";
         <div class="main-container loader">
             <div class="main wrapper clearfix">
                 <section id="hub">
-                 <!--   <img src="./media/img/banner2x.png"> -->
-                 <img src="./media/img/bannertest.png" alt="">
+                 <img src="./media/img/bouldersbanner.png">
+                
 <h2>åbent alle dage kl. 10-22</h2>
 <div class="btncontainer" id="hubbtncontainer">
                     <a class="hubbtn" href="om.php">AARHUS</a>

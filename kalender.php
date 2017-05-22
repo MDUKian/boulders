@@ -15,10 +15,11 @@ include "includes/nav.php";
                       </div>  
                     </header>
                     <section>
-                        <h2>article section h2</h2>
-<p>Vi afholder Late Night Bouldering den første fredag aften i hver måned.</p> 
-<p>Lækker musik, sjov klatring til alle niveauer, glade mennesker og billige økologiske øl.</p>
-<p>Klik på et event for at blive sendt direkte til vores facebookbegivenhed!</p>
+                        <h2>kommende events og arrangementers</h2>
+                        <p>
+                            Vi afholder Late Night Bouldering den første fredag i hver måned. <br> Lækker musik, sjov klatring til alle niveauer, glade mennesker og billige økologiske øl.
+                        </p>
+<img src="./media/img/kalenderplaceholder.png" alt="">
                    </section>
 
                 </article>
