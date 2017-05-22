@@ -29,9 +29,11 @@ Bouldering er en ren form for klatring, der er meget dynamisk, hvilket kræver t
 <p>Gratis WiFi i vores store chillområde.</p>
 <p>Boulderkonkurrencer og andre events.</p>
 <p>Professionelle in-house instruktører og trænere.</p>
+<div class="btncontainer  onlydesktop">
 <a class="ctabtn" href="om.php">bliv medlem</a>
+</div>
                     </section>
-                    <section>
+                    <section class="half">
                     <div>
                         <h3>kom godt i gang</h3>
                         <p>Det eneste du skal gøre er at møde op.</p>
@@ -45,6 +47,7 @@ Bouldering er en ren form for klatring, der er meget dynamisk, hvilket kræver t
 
                         </ul>
                         </div>
+
                         <div>
                         <h3>sikkerhed</h3>
                         <p>Klatring i vores klatreklubber er på eget ansvar.</p>

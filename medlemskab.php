@@ -13,10 +13,10 @@ include "includes/nav.php";
                       <a class="ctabtn" href="om.php">AARHUS</a>
                       <a class="ctabtn" href="om.php">AARHUS</a>          
                       </div>          </header>
-                    <section>
+                    <section class="third">
                         <h2>entré</h2>
 <div>
-    <p>Mandag - Fredag <br>inden kl. 14.00</p>
+    <p class="bold">Mandag - Fredag <br>inden kl. 14.00</p>
     <ul>
         <li>Entré: 80,-</li>
         <li>Entré (under 16 år): 45,-</li>
@@ -24,7 +24,7 @@ include "includes/nav.php";
     </ul>
 </div>
 <div>
-    <p>Mandag - Fredag <br>efter kl. 14.00</p>
+    <p class="bold">Mandag - Fredag <br>efter kl. 14.00</p>
     <ul>
         <li>Entré: 110,-</li>
         <li>Entré (under 16 år): 60,-</li>
@@ -32,7 +32,7 @@ include "includes/nav.php";
     </ul>
 </div>
 <div>
-    <p>Lørdag - Søndag <br>hele dagen</p>
+    <p class="bold">Lørdag - Søndag <br>hele dagen</p>
     <ul>
         <li>Entré: 110,-</li>
         <li>Entré (under 16 år): 60,-</li>

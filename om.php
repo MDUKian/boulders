@@ -13,11 +13,11 @@ include "includes/nav.php";
                       <a class="ctabtn" href="om.php">AARHUS</a>
                       <a class="ctabtn" href="om.php">AARHUS</a>          
                       </div>                   </header>
-                    <section class="landercontent">
+                    <section class="landercontent third">
                         <div>
                             <img src="./media/img/klatre_ikon.png" alt="">
-                            <p>Hos <?php echo $city ?>Boulders tilbyder vi funktionel træning i form af bouldering. Det er nemt at komme i gang - man behøver hverken udstyr eller klatreerfaring ob_get_cleanvores dygtige og engagerede instruktører og ansatte står altid klar til at hjælpe dig godt i gang. <br>Prøv det i dag!</p>
-<div class="btncontainer">
+                            <p>Hos <?php echo $city ?>Boulders tilbyder vi funktionel træning i form af bouldering. Det er nemt at komme i gang - man behøver hverken udstyr eller klatreerfaring og vores dygtige og engagerede instruktører og ansatte står altid klar til at hjælpe dig godt i gang. <br>Prøv det i dag!</p>
+<div class="btncontainer third">
     
     <a class="ctabtn" href="#.php">bliv medlem</a> 
 </div>
@@ -26,7 +26,7 @@ include "includes/nav.php";
                                                 <div>
                             <img src="./media/img/kaffe_ikon.png" alt="">
                             <p>Grundværdierne hos <?php echo $city ?>Boulders er sundhed og økologi. Du finder derfor en økologisk bar med et stort udvalg af kaffe, the, frisk juice, frugt og delikatesser. Nyd din kaffe i vores store chillområde og få en hyggelig snak med de andre medlemmer. <br>Vores kaffe skal bare prøves!</p>
-<div class="btncontainer">
+<div class="btncontainer third">
     
     <a class="ctabtn" href="okobar.php">øko bar</a> 
 </div>
@@ -35,7 +35,7 @@ include "includes/nav.php";
                                                 <div>
                             <img src="./media/img/hjerte_ikon.png" alt="">
                             <p>Hos <?php echo $city ?>Boulders går vi meget op i at skabe et tæt fællesskab mellem vores medlemmer. Derfor afholder vi den første fredag i hver måned Late Night Bouldering med lækker musik, sjov klatring i alle niveauer, hyggeligt samvær og økologiske øl. <br>Kom og deltag i hyggen!</p>
-<div class="btncontainer">
+<div class="btncontainer third">
     
     <a class="ctabtn" href="kalender.php">kalender</a> 
 </div>

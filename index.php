@@ -3,7 +3,7 @@
 include "includes/head.php";
 ?>
 
-<video playsinline autoplay muted loop id="bgvid">
+<video playsinline autoplay muted loop poster="../media/img/bgfallback.jpg" id="bgvid"> 
     <source src="./media/videos/introhigh.webm" type="video/webm">
     <source src="./media/videos/introhigh.mp4" type="video/mp4">
 </video>
