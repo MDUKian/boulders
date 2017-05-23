@@ -8,8 +8,8 @@
          <header>
             <h1>pris &amp; medlemskab</h1>
             <div class="btncontainer">
-               <a class="ctabtn" href="om.php">AARHUS</a>
-               <a class="ctabtn" href="om.php">AARHUS</a>          
+               <a class="ctabtn" href="om.php">praktisk info</a>
+               <a class="ctabtn" href="om.php">kontakt</a>          
             </div>
          </header>
          <section class="third">
