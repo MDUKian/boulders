@@ -21,8 +21,9 @@ include "includes/nav.php";
                         </p>
                         <h5>Tlf.: +45 40 955 254</h5>
                         </div>
-                        <div>
+                        <div id="kalenderplaceholder">
                             <h2>send os en besked</h2>
+                            <img src="./media/img/kontaktplaceholder.jpg" alt="">
 
                         </div>
                     </section>
