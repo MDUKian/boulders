@@ -3,27 +3,29 @@
 include "includes/head.php";
 ?>
 
-<video playsinline autoplay muted loop poster="../media/img/bgfallback.jpg" id="bgvid"> 
-    <source src="./media/videos/introhigh.webm" type="video/webm">
-    <source src="./media/videos/introhigh.mp4" type="video/mp4">
-</video>
+    <video playsinline autoplay muted loop poster="../media/img/bgfallback.jpg" id="bgvid">
+        <source src="./media/videos/introhigh.webm" type="video/webm">
+        <source src="./media/videos/introhigh.mp4" type="video/mp4">
+    </video>
 
-        <div class="main-container loader">
-            <div class="main wrapper clearfix">
-                <section id="hub">
-                 <img src="./media/img/bouldersbanner.png">
-                
-<h2>åbent alle dage kl. 10-22</h2>
-<div class="btncontainer" id="hubbtncontainer">
+    <div class="main-container loader">
+        <div class="main wrapper clearfix">
+            <section id="hub">
+                <img src="./media/img/bouldersbanner.png">
+
+                <h2>åbent alle dage kl. 10-22</h2>
+                <div class="btncontainer" id="hubbtncontainer">
                     <a class="hubbtn" href="om.php">AARHUS</a>
                     <a class="hubbtn" href="om.php">COPENHAGEN</a>
-</div>
+                </div>
 
-                </section>
+            </section>
 
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
+        </div>
+        <!-- #main -->
+    </div>
+    <!-- #main-container -->
 
-  <?php
+    <?php
 include "includes/footer.php"
 ?>

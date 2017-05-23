@@ -17,7 +17,7 @@ foreach($navPages as $url=>$title){
 if($url === $this_page){
     $metatitle = $title;
 }
-        
+
 }
 
 $aarfb = "https://www.facebook.com/aarhusboulders/";
@@ -28,21 +28,24 @@ $cphinsta = "https://www.instagram.com/cphboulders/";
 $cphta = "https://www.tripadvisor.dk/Attraction_Review-g189541-d10454283-Reviews-Copenhagen_Boulders-Copenhagen_Zealand.html";
 
 ?>
-<!doctype html>
-<html class="no-js" lang="en" <?php if($this_page == "index.php"):?>id="bgfallback"<?php endif;?>>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title><?php echo $metatitle; ?></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!doctype html>
+    <html class="no-js" lang="en" <?php if($this_page=="index.php" ):?>id="bgfallback"
+    <?php endif;?>>
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Quicksand:300" rel="stylesheet">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <title>
+                <?php echo $metatitle; ?>
+            </title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+            <link rel="stylesheet" href="css/normalize.min.css">
+            <link rel="stylesheet" href="css/main.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link href="https://fonts.googleapis.com/css?family=Oswald|Quicksand:300" rel="stylesheet">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
+            <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        </head>
