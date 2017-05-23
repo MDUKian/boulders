@@ -10,8 +10,8 @@ include "includes/nav.php";
                     <header>
                         <h1>velkommen til <?php echo $city . " " ?>Boulders</h1>
                         <div class="btncontainer">
-                      <a class="ctabtn" href="om.php">AARHUS</a>
-                      <a class="ctabtn" href="om.php">AARHUS</a>          
+                      <a class="ctabtn" href="om.php">bliv medlem</a>
+                      <a class="ctabtn" href="om.php">praktisk info</a>          
                       </div>                   </header>
                     <section class="landercontent third">
                         <div>
