@@ -24,7 +24,7 @@
                         <li class="menu-item"><a <?php if($this_page=="okobar.php" ):?>class="active"<?php endif;?>  href="okobar.php">øko bar</a>
                         </li>
                         <li class="menu-item">
-                            <a href="index.php"><img id="logolarge" src="./media/img/logohalf.png"></a>
+                            <a href="index.php"><img id="logolarge" src="./media/img/boulderslogo.png"></a>
                         </li>
                         <li class="menu-item"><a <?php if($this_page=="medlemskab.php" ):?>class="active"<?php endif;?>  href="medlemskab.php">pris &amp; medlemskab</a>
                         </li>

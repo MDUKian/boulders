@@ -23,9 +23,7 @@ include "includes/nav.php";
                             <br>
 
                     </p>
-                    <h2>
-    plads til en unik oplevelse
-</h2>
+                    <h2>plads til en unik oplevelse</h2>
                     <p>
                         Trænger du til en lille pause og et ordentligt energiboost? Prøv vores økologiske juice eller proteinbarer for at komme på ret køl igen.
                         <br> Den friske kaffe gør de fleste øjeblikke bedre - men den vinder ikke altid over vores udvalg af økologiske øl. Baren er for alle, der har lyst til at prøve en berigende smagsoplevelse.
