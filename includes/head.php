@@ -12,13 +12,14 @@ $navPages["okobar.php"] = "Den økologiske bar - " . $city . " Boulders";
 $navPages["medlemskab.php"] = "Pris &amp; Medlemskab - " . $city . " Boulders";
 $navPages["kalender.php"] = "Kommende events for " . $city . " Boulders";
 $navPages["kontakt.php"] = "Kontakt os her i " . $city . " Boulders";
+$navPages["index.php"] = "Velkommen til Boulders: Danmarks fedeste klatrested!";
 
 foreach($navPages as $url=>$title){
 if($url === $this_page){
     $metatitle = $title;
 }
 
-}
+} 
 
 $aarfb = "https://www.facebook.com/aarhusboulders/";
 $aarinsta = "https://www.instagram.com/aarhusboulders/";
@@ -35,6 +36,7 @@ $cphta = "https://www.tripadvisor.dk/Attraction_Review-g189541-d10454283-Reviews
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <meta name="Keywords" content="klatring, bouldering, klatreudstyr, økologi, funktionel træning, hyggelig træning">
             <title>
                 <?php echo $metatitle; ?>
             </title>
@@ -43,7 +45,6 @@ $cphta = "https://www.tripadvisor.dk/Attraction_Review-g189541-d10454283-Reviews
             <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
             <link rel="stylesheet" href="css/normalize.min.css">
-            <link rel="stylesheet" href="css/main.css">
             <link rel="stylesheet" href="css/style.css">
             <link href="https://fonts.googleapis.com/css?family=Oswald|Quicksand:300" rel="stylesheet">
 
